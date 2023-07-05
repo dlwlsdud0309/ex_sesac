@@ -7,6 +7,9 @@ public class ex_02 {
 		
 		//2. 문자형
 		char name2 = 'a';
+//		char name6 = 'abc'; 이경우 문자가 아니라 문자열에 해당함
+		//2-2. 레퍼런스형
+		String name7 = "abc";
 		
 		//3. 정수형
 		//byte short int long
