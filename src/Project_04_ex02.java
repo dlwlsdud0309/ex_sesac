@@ -15,12 +15,16 @@ public class Project_04_ex02 {
 		int score = sc.nextInt();
 		
 		//3. 만약, score가 90보다 크거나 같으면 "A학점입니다."를 출력
-		//score가 90보다 작다면 "B합격입니다."를 출력
+		//score가 80보다 크거나 같고 90보다 작다면 "B합격입니다."를 출력
+		//score가 70보다 크거나 같고 80보다 작다면 "C합격입니다."를 출력
 		
 		if(score >= 90) {
 			System.out.println("A학점입니다.");
-		}else {
+		}else if(score < 90 && score >=80) {
 			System.out.println("B학점입니다.");
+//		}else if(score < 80) { //첫번째 조건식에 해당하기 때문에 바로 빠져나와서 "B학점입니다"가 출력되는 것
+		}else if(score < 80 && score >=70) {
+			System.out.println("C학점입니다.");
 		}
 		
 		
