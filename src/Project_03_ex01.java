@@ -12,6 +12,14 @@ public class Project_03_ex01 {
 //		System.out.println(name "입니다."); //에러, 연결 위해 +연산자 필요
 		System.out.println(name+"입니다.");
 
-		System.out.print(name+"입니다."); //println과 print
+		System.out.print(name+"입니다."); //println(자동줄바꿈)과 print(줄바꿈없음)
+		
+		System.out.println("=====");
+		
+		System.out.println("안녕");
+		System.out.println("하세요");
+		
+		System.out.print("안녕");
+		System.out.print("하세요");
 	}
 }
