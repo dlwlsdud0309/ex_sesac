@@ -20,11 +20,11 @@ public class Project_04_ex02 {
 		
 		if(score >= 90) {
 			System.out.println("A학점입니다.");
-		}else if(score < 90 && score >=80) {
+		}else if(score >= 80) { //score < 90은 위에서 이미 해당하므로 지워도 됨
 			System.out.println("B학점입니다.");
 //		}else if(score < 80) { //첫번째 조건식에 해당하기 때문에 바로 빠져나와서 "B학점입니다"가 출력되는 것
-		}else if(score < 80 && score >=70) {
-			System.out.println("C학점입니다.");
+		}else if(score >= 70) {
+			System.out.println("C학점입니다."); //50점을 입력하면 아무것도 뜨지 않는다.
 		}
 		
 		
