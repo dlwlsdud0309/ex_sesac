@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prectice01 {
+public class Practice01 {
 	public static void main(String[] args) {
 		
 		//정수를 입력받아 20보다 크거나 같으면 "성인입니다."

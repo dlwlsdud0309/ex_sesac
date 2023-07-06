@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prectice02 {
+public class Practice02 {
 	public static void main(String[] args) {
 		
 		//int 타입의 변수 score를 선언하고 키보드로 값을 입력받으세요.
