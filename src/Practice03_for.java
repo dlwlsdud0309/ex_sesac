@@ -1,5 +1,5 @@
 
-public class Practice03 {
+public class Practice03_for {
 	public static void main(String[] args) {
 		// 반복문이란?
 		// 어떤 조건에 만족할 때까지 실행문장을 반복하여 실행하는 구조
