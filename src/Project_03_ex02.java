@@ -17,6 +17,8 @@ public class Project_03_ex02 {
 		String name = scan.next();
 		System.out.println("제 이름은 "+name+" 입니다.");
 		
+		
+		//스캐너는 라이브러리 도구, 객체명(변수) 사용
 	}
 
 }
