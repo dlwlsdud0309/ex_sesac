@@ -13,6 +13,7 @@ public class Project_03_ex02 {
 //		System.out.println(num);
 		
 		//문자열 출력하기
+		System.out.print("이름 입력 >> ");
 		String name = scan.next();
 		System.out.println("제 이름은 "+name+" 입니다.");
 		
