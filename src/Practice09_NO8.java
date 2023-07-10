@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Practice09_NO8 {
@@ -28,6 +29,7 @@ public class Practice09_NO8 {
 			}
 		}
 		System.out.println("종료되었습니다.");
+
 	}
 	
 }
