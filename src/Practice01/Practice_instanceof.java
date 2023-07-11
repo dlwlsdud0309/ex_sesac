@@ -13,6 +13,8 @@ public class Practice_instanceof {
 		//참조변수의 형변환 가능여부 확인에 사용하고 가능하면 true를 변환하는 연산자
 		//참조변수가 형변환이 가능한지 확인할 때 사용한다.
 		
+		//오버라이딩과 다형성
+		
 		
 		A ac = new B();
 		A ao = new C();
